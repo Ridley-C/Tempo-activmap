@@ -3,29 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
-    <link href="main.css" rel="stylesheet">
-    <title>        Tiled WMS</title>
-
-    <style>
-      .map {
-        width: 100%;
-        height:500px;
-        border-radius: 5px;
-      }
-    </style>
+    <link href="style.css" rel="stylesheet">
+    <title>     Tiled WMS</title>
   </head>
 
   <body>
     <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a class="active" href="#Reset">Reset</a>
+        <a id="points">Points</a>
+        <a id="lines">Lines</a>
+        <a id="polygons">Polygons</a>
       <h1></h1>
     </div>
     <div id="map" class="map"></div>
-    <div class="bottom text">
-      <div id="mouse-position"></div>
+    <div class="bottom text"
+>      <div id="mouse-position"></div>
       <div id="info">Info:&nbsp;</div>
     </div>
     <!-- include link to OL library & js script --> 

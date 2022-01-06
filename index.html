@@ -1,28 +1,40 @@
 <!DOCTYPE html>
+
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
-    <link href="main.css" rel="stylesheet">
-    <title>     Tiled WMS</title>
+    <link href="style.css" rel="stylesheet">
+    <title>ACTIVmap</title>
   </head>
 
   <body>
     <div class="topnav">
-        <a class="active" href="#Reset">Reset</a>
+        <a class="active" id="reset">Click on layers to toggle! > </a>
         <a id="points">Points</a>
         <a id="lines">Lines</a>
         <a id="polygons">Polygons</a>
-      <h1></h1>
+        <a id="add_point">Add Point</a>
+        <a id="add_line">Add Line</a>
+        <a id="add_polygon">Add Polygon</a>
+        <a id="delete">Delete Point</a>
+        <a id="clear">Clear Pointer</a>
+        
+
+        
     </div>
+
     <div id="map" class="map"></div>
-    <div class="bottom text"
->      <div id="mouse-position"></div>
+    <div class="bottom text">
+          <div id="mouse-position"></div>
       <div id="info">Info:&nbsp;</div>
     </div>
-    <!-- include link to OL library & js script --> 
+    <!-- include link to OL library, Jquery library & js script --> 
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
     <script src="main.js"></script>
 
   </body>
+
 </html>

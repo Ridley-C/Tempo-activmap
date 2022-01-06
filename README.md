@@ -1,6 +1,10 @@
 # Tempo-activmap
 Temporary repository for activmap projet
 
+Delete Point Update :
+ - adding points to layers now functional
+ - menu buttons updates
+ - point deletion underway
 
 WFS update :
  - loading layers directly from local postgres db

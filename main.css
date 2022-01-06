@@ -1,5 +1,5 @@
 html{
-  background-color: #333;
+  background-color: #353;
 }
 
 .map {
@@ -26,7 +26,7 @@ html{
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #black;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   border-radius: 5px;
@@ -51,3 +51,5 @@ html{
   border-radius: 5px;
   margin-top: 10px;
 }
+
+
